@@ -1,0 +1,23 @@
+h1{
+    font-size: 30px!important;
+}
+
+.button1:hover{
+    background-color: crimson;
+}
+
+.button1{
+    background-color: cyan;
+    font-size: 20px;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 30px blue;}
+    to{box-shadow: 1px 1px 30px lightcoral;}
+}
